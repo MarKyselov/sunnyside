@@ -1,0 +1,76 @@
+header {
+    height: 800px;
+    /* height: 100vh; */
+    background-image: url(../images/desktop/image-header.jpg);
+    background-size: cover;
+    padding-top: 34px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+header img {
+    height: 33px;
+}
+
+header div:first-child {
+    max-width: 1352px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 105px;
+}
+
+header nav {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.128571px;
+    color: #FFFFFF;
+    display: flex;
+    gap: 47px;
+    align-items: center;
+}
+
+header a {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: -0.107143px;
+    text-transform: uppercase;
+    color: #24303E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 56px;
+    background-color: #FFFFFF;
+    border-radius: 28px;
+}
+
+header article {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 69px;
+    text-align: center;
+    letter-spacing: 8.75px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.arrow{
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 126px;
+    background-image: url(../images/icon-arrow-down.svg);
+    background-size: cover;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
